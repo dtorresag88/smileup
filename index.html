@@ -343,7 +343,7 @@ footer{padding:52px 48px 24px;background:var(--ink);color:rgba(255,255,255,.65)}
 .blog{padding:120px 48px;background:var(--cream)}
 .blog-inner{max-width:1380px;margin:0 auto}
 .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:60px}
-.blog-card{background:#fff;border-radius:24px;overflow:hidden;border:1px solid var(--line);transition:transform .3s,box-shadow .3s;cursor:pointer}
+.blog-card{background:#fff;border-radius:24px;overflow:hidden;border:1px solid var(--line);transition:transform .3s,box-shadow .3s;cursor:pointer;display:block;color:inherit;text-decoration:none}
 .blog-card:hover{transform:translateY(-6px);box-shadow:0 24px 64px rgba(17,17,16,.16)}
 .blog-card-img{height:200px;display:flex;align-items:center;justify-content:center;font-size:64px;position:relative;overflow:hidden}
 .blog-card-img-1{background:linear-gradient(135deg,#FFE4E4 0%,#FECDD3 100%)}
@@ -690,7 +690,7 @@ footer{padding:52px 48px 24px;background:var(--ink);color:rgba(255,255,255,.65)}
     <div class="blog-grid">
 
       <!-- Artículo 1 -->
-      <div class="blog-card reveal" onclick="openBlog(1)">
+      <a class="blog-card reveal" href="/blog/costo-ausentismo-dental-empresas.html">
         <div class="blog-card-img blog-card-img-1">💸</div>
         <div class="blog-card-body">
           <span class="blog-tag">Ausentismo laboral</span>
@@ -701,10 +701,11 @@ footer{padding:52px 48px 24px;background:var(--ink);color:rgba(255,255,255,.65)}
             <span class="blog-read-more">Leer artículo →</span>
           </div>
         </div>
-      </div>
+      </a>
 
-      <!-- Artículo 2 -->
-      <div class="blog-card reveal" onclick="openBlog(2)">
+      <!-- Artículo 2 -->'
+
+      <a class="blog-card reveal" href="/blog/beneficios-salud-corporativos-2026.html">
         <div class="blog-card-img blog-card-img-2">🏆</div>
         <div class="blog-card-body">
           <span class="blog-tag">Beneficios corporativos</span>
@@ -715,10 +716,10 @@ footer{padding:52px 48px 24px;background:var(--ink);color:rgba(255,255,255,.65)}
             <span class="blog-read-more">Leer artículo →</span>
           </div>
         </div>
-      </div>
+      </a>
 
       <!-- Artículo 3 -->
-      <div class="blog-card reveal" onclick="openBlog(3)">
+      <a class="blog-card reveal" href="/blog/salud-dental-preventiva-empresas.html">
         <div class="blog-card-img blog-card-img-3">🦷</div>
         <div class="blog-card-body">
           <span class="blog-tag">Salud dental empresas</span>
@@ -729,7 +730,7 @@ footer{padding:52px 48px 24px;background:var(--ink);color:rgba(255,255,255,.65)}
             <span class="blog-read-more">Leer artículo →</span>
           </div>
         </div>
-      </div>
+      </a>
 
     </div>
   </div>
