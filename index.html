@@ -3,7 +3,106 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Smile Up · Un dentista en tu empresa</title>
+<!-- ═══ SEO ═══ -->
+<title>Smile Up · Dentista en tu Empresa | Clínica Dental Móvil Corporativa Chile</title>
+<meta name="description" content="Llevamos una clínica dental certificada directo a tu empresa. Atención preventiva para tus colaboradores sin permisos ni traslados. Costo cero para el empleador. Empresas como Tottus, DHL y Carozzi ya confían en nosotros.">
+<meta name="keywords" content="dentista empresas Chile, beneficio dental corporativo, clínica dental móvil empresa, salud dental colaboradores, atención dental in-company, beneficios corporativos salud, dentista Santiago empresas">
+<meta name="author" content="Smile Up - Clínica Dental Móvil">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://clinicasmileup.cl">
+<meta name="geo.region" content="CL-RM">
+<meta name="geo.placename" content="Santiago, Chile">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://clinicasmileup.cl">
+<meta property="og:title" content="Smile Up · Un dentista en tu empresa">
+<meta property="og:description" content="Clínica dental móvil certificada por el Seremi de Salud. Atención dental preventiva in-company. Sin costo para el empleador.">
+<meta property="og:locale" content="es_CL">
+<meta property="og:site_name" content="Smile Up Clínica Dental Móvil">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Smile Up · Un dentista en tu empresa">
+<meta name="twitter:description" content="Clínica dental móvil certificada. Atención dental preventiva in-company para empresas en Chile.">
+
+<!-- JSON-LD Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://clinicasmileup.cl/#business",
+      "name": "Smile Up - Clínica Dental Móvil",
+      "alternateName": "Smile Up",
+      "description": "Clínica dental móvil certificada por el Seremi de Salud que lleva atención odontológica preventiva directamente a empresas en Chile.",
+      "url": "https://clinicasmileup.cl",
+      "telephone": "+56956981681",
+      "email": "diego@clinicasmileup.cl",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Santiago",
+        "addressRegion": "Región Metropolitana",
+        "addressCountry": "CL"
+      },
+      "areaServed": {"@type": "Country", "name": "Chile"},
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto le cuesta a la empresa contratar Smile Up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El costo para el empleador es cero. Los colaboradores pagan directamente a precio especial corporativo ($32.000 el programa básico, vs $70.000 valor normal)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántas personas pueden atenderse por día?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La clínica móvil puede atender hasta 16 colaboradores por día, coordinados con el equipo de RRHH para no interrumpir la jornada laboral."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Dónde instalan la clínica dental móvil?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La clínica se instala en el estacionamiento o patio de tu empresa. Solo necesitamos espacio para la unidad móvil y conexión eléctrica estándar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Están certificados por el Seremi de Salud?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Smile Up es una clínica dental móvil certificada por el Seremi de Salud, cumpliendo todos los estándares sanitarios vigentes en Chile."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿En qué ciudades operan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Operamos principalmente en la Región Metropolitana de Santiago. Contáctanos para evaluar operaciones en otras regiones de Chile."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -237,6 +336,51 @@ footer{padding:52px 48px 24px;background:var(--ink);color:rgba(255,255,255,.65)}
 }
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .75s,transform .75s}
 .reveal.in{opacity:1;transform:translateY(0)}
+</style>
+
+<style>
+/* ── BLOG ── */
+.blog{padding:120px 48px;background:var(--cream)}
+.blog-inner{max-width:1380px;margin:0 auto}
+.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:60px}
+.blog-card{background:#fff;border-radius:24px;overflow:hidden;border:1px solid var(--line);transition:transform .3s,box-shadow .3s;cursor:pointer}
+.blog-card:hover{transform:translateY(-6px);box-shadow:0 24px 64px rgba(17,17,16,.16)}
+.blog-card-img{height:200px;display:flex;align-items:center;justify-content:center;font-size:64px;position:relative;overflow:hidden}
+.blog-card-img-1{background:linear-gradient(135deg,#FFE4E4 0%,#FECDD3 100%)}
+.blog-card-img-2{background:linear-gradient(135deg,#E0F2FE 0%,#BAE6FD 100%)}
+.blog-card-img-3{background:linear-gradient(135deg,#DCFCE7 0%,#BBF7D0 100%)}
+.blog-card-img::after{content:"";position:absolute;bottom:-20px;right:-20px;width:120px;height:120px;background-image:radial-gradient(circle,#CC3344 2px,transparent 2px);background-size:14px 14px;opacity:.2}
+.blog-card-body{padding:28px}
+.blog-tag{display:inline-block;background:#FDEAEC;color:#CC3344;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:4px 12px;border-radius:100px;margin-bottom:14px}
+.blog-card-body h3{font-family:'Fraunces',serif;font-size:22px;font-weight:500;line-height:1.2;margin-bottom:12px;color:#111110}
+.blog-card-body p{color:#3D3D3A;font-size:14px;line-height:1.6;margin-bottom:20px}
+.blog-meta{display:flex;align-items:center;justify-content:space-between;font-size:12px;color:#7A7A75;border-top:1px solid #E5E4E0;padding-top:16px}
+.blog-read-more{color:#CC3344;font-weight:700;font-size:13px;display:flex;align-items:center;gap:6px;transition:gap .2s}
+.blog-card:hover .blog-read-more{gap:10px}
+
+/* MODAL BLOG */
+.blog-modal-overlay{display:none;position:fixed;inset:0;background:rgba(17,17,16,.75);z-index:200;align-items:flex-start;justify-content:center;padding:40px 20px;overflow-y:auto}
+.blog-modal-overlay.open{display:flex}
+.blog-modal{background:#fff;border-radius:28px;max-width:780px;width:100%;padding:56px;position:relative;margin:auto}
+.blog-modal-close{position:absolute;top:20px;right:24px;background:#E5E4E0;border:none;width:38px;height:38px;border-radius:50%;cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;color:#111110;transition:background .2s;line-height:1}
+.blog-modal-close:hover{background:#CC3344;color:#fff}
+.blog-modal h1{font-family:'Fraunces',serif;font-size:clamp(26px,4vw,38px);font-weight:400;line-height:1.15;margin:14px 0 10px}
+.blog-modal-meta{color:#7A7A75;font-size:13px;margin-bottom:28px;padding-bottom:22px;border-bottom:1px solid #E5E4E0}
+.blog-modal-content h2{font-family:'Fraunces',serif;font-size:24px;font-weight:500;margin:32px 0 12px;color:#111110}
+.blog-modal-content h3{font-family:'Fraunces',serif;font-size:19px;font-weight:500;margin:22px 0 8px;color:#111110}
+.blog-modal-content p{color:#3D3D3A;font-size:16px;line-height:1.75;margin-bottom:16px}
+.blog-modal-content ul,.blog-modal-content ol{margin:0 0 18px 22px;color:#3D3D3A;font-size:16px;line-height:1.75}
+.blog-modal-content li{margin-bottom:8px}
+.blog-modal-content strong{color:#111110;font-weight:700}
+.blog-stat-box{background:#FDEAEC;border-left:4px solid #CC3344;border-radius:0 12px 12px 0;padding:18px 22px;margin:24px 0;font-size:15px;color:#3D3D3A}
+.blog-stat-box strong{display:block;font-size:26px;color:#CC3344;margin-bottom:4px;font-family:'Fraunces',serif}
+.blog-modal-cta{background:#CC3344;color:#fff;padding:16px 28px;border-radius:100px;font-weight:700;font-size:15px;display:inline-flex;align-items:center;gap:10px;margin-top:32px;transition:background .2s,transform .2s;text-decoration:none}
+.blog-modal-cta:hover{background:#A82235;transform:translateY(-2px)}
+@media(max-width:1000px){
+  .blog{padding:72px 20px}
+  .blog-grid{grid-template-columns:1fr}
+  .blog-modal{padding:32px 20px}
+}
 </style>
 </head>
 <body>
@@ -534,6 +678,71 @@ footer{padding:52px 48px 24px;background:var(--ink);color:rgba(255,255,255,.65)}
   </div>
 </section>
 
+
+<!-- BLOG -->
+<section class="blog" id="blog">
+  <div class="blog-inner">
+    <div class="section-header reveal" style="text-align:center;max-width:700px;margin:0 auto">
+      <div style="color:var(--coral);font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;margin-bottom:14px">Recursos para RRHH</div>
+      <h2 class="display" style="font-size:clamp(34px,4vw,52px);margin-bottom:18px">Todo lo que necesitas <em>saber</em>.</h2>
+      <p style="font-size:17px;color:var(--ink-soft);line-height:1.6">Guías prácticas para gerentes de personas y RRHH que quieren tomar mejores decisiones sobre el bienestar de sus equipos.</p>
+    </div>
+    <div class="blog-grid">
+
+      <!-- Artículo 1 -->
+      <div class="blog-card reveal" onclick="openBlog(1)">
+        <div class="blog-card-img blog-card-img-1">💸</div>
+        <div class="blog-card-body">
+          <span class="blog-tag">Ausentismo laboral</span>
+          <h3>¿Cuánto le cuesta a tu empresa ignorar la salud dental de sus colaboradores?</h3>
+          <p>Una cita al dentista tradicional significa 4–5 horas perdidas. Multiplicado por cientos de colaboradores, el número es brutal.</p>
+          <div class="blog-meta">
+            <span>7 min de lectura</span>
+            <span class="blog-read-more">Leer artículo →</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Artículo 2 -->
+      <div class="blog-card reveal" onclick="openBlog(2)">
+        <div class="blog-card-img blog-card-img-2">🏆</div>
+        <div class="blog-card-body">
+          <span class="blog-tag">Beneficios corporativos</span>
+          <h3>Cómo elegir beneficios de salud para tu equipo en 2026 (y que realmente se usen)</h3>
+          <p>El 77% de los trabajadores chilenos cree que los beneficios de su empresa necesitan mejoras. Esta guía te ayuda a no ser parte de ese número.</p>
+          <div class="blog-meta">
+            <span>8 min de lectura</span>
+            <span class="blog-read-more">Leer artículo →</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Artículo 3 -->
+      <div class="blog-card reveal" onclick="openBlog(3)">
+        <div class="blog-card-img blog-card-img-3">🦷</div>
+        <div class="blog-card-body">
+          <span class="blog-tag">Salud dental empresas</span>
+          <h3>Salud dental preventiva en la empresa: la guía completa para RRHH</h3>
+          <p>Todo lo que necesitas saber para implementar un programa de salud dental corporativo: qué incluir, cómo comunicarlo y cómo medirlo.</p>
+          <div class="blog-meta">
+            <span>10 min de lectura</span>
+            <span class="blog-read-more">Leer artículo →</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- MODALES BLOG -->
+<div class="blog-modal-overlay" id="blog-modal-overlay" onclick="closeBlogIfOutside(event)">
+  <div class="blog-modal" id="blog-modal">
+    <button class="blog-modal-close" onclick="closeBlog()">✕</button>
+    <div id="blog-modal-content"></div>
+  </div>
+</div>
+
 <!-- FOOTER -->
 <footer>
   <div class="footer-inner">
@@ -580,6 +789,168 @@ footer{padding:52px 48px 24px;background:var(--ink);color:rgba(255,255,255,.65)}
     entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}});
   },{threshold:.1});
   document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+
+<script>
+const blogArticles = {
+  1: {
+    tag: "Ausentismo laboral",
+    title: "¿Cuánto le cuesta a tu empresa ignorar la salud dental de sus colaboradores?",
+    meta: "Por Smile Up · 10 de mayo, 2026 · 7 min de lectura",
+    content: `
+      <p>Imagina que uno de tus colaboradores necesita ir al dentista. Para que esa cita ocurra en una clínica tradicional, el proceso es así: solicita permiso a su jefe, se traslada en transporte o auto, espera entre 30 y 60 minutos en la sala de espera, recibe la atención, y regresa al trabajo. En total: <strong>entre 4 y 5 horas perdidas</strong>.</p>
+
+      <p>Ahora multiplica eso por el número de personas en tu empresa. Y luego considera que, según la Organización Mundial de la Salud, la mayoría de los adultos requiere al menos dos controles dentales al año.</p>
+
+      <div class="blog-stat-box">
+        <strong>+7 millones</strong>
+        En 2025 se emitieron más de 7 millones de licencias médicas en Chile, según la Superintendencia de Seguridad Social. El ausentismo laboral por causa médica es la primera de las causas que generan mayor gasto en las empresas.
+      </div>
+
+      <h2>El problema silencioso que nadie mide</h2>
+      <p>La mayoría de las empresas llevan registro del ausentismo por licencias médicas. Pero pocos calculan el costo real de las salidas informales a controles médicos, entre ellos, los dentales.</p>
+      <p>Un estudio de la Cámara de Comercio de Santiago reveló que el ausentismo laboral por licencias médicas llega en promedio a <strong>10,4 días al año por trabajador</strong>. Parte importante de ese número se explica por urgencias que pudieron haberse prevenido con controles regulares.</p>
+      <p>La caries no tratada se convierte en infección. La infección, en dolor agudo. El dolor agudo, en licencia médica de 3 a 4 días. Todo eso pudo haberse evitado con una limpieza dental de 30 minutos.</p>
+
+      <h2>El costo real, calculado</h2>
+      <p>Hagamos el ejercicio con una empresa de 200 colaboradores:</p>
+      <ul>
+        <li>Si cada persona va al dentista 2 veces al año y pierde 4 horas por visita → <strong>1.600 horas perdidas al año</strong></li>
+        <li>Con un sueldo promedio de $700.000 líquidos → cada hora vale ~$4.375</li>
+        <li>Costo directo en tiempo: <strong>$7.000.000 al año</strong> solo en horas de traslado y espera</li>
+        <li>Sin contar licencias médicas por urgencias dentales no prevenidas</li>
+      </ul>
+      <p>Ese número no aparece en ningún reporte de RRHH. Pero existe.</p>
+
+      <h2>¿Qué pasa cuando no se atienden a tiempo?</h2>
+      <p>El 62% de los chilenos califica su salud bucal como regular, mala o muy mala, según un estudio de la Universidad de los Andes (2023). No es que no quieran atenderse: es que el sistema no facilita el acceso.</p>
+      <p>Lo que hoy es una limpieza de $32.000 puede convertirse en un tratamiento de conducto de $300.000 y 3 a 4 días de licencia médica si se posterga. La prevención no es un gasto: es la inversión más rentable que puede hacer una empresa en salud.</p>
+
+      <h2>La solución está más cerca de lo que crees</h2>
+      <p>Smile Up lleva la clínica dental certificada directamente a tu empresa. Tus colaboradores se atienden en 30 minutos, sin moverse del trabajo, sin permisos y sin horas perdidas. El programa básico cuesta $32.000 por persona — un 54% menos que en una clínica tradicional — y el costo es cero para el empleador.</p>
+      <a href="https://calendar.app.google/Jmzwz1UeD4T2fn2JA" target="_blank" class="blog-modal-cta">Agenda una reunión sin compromiso →</a>
+    `
+  },
+  2: {
+    tag: "Beneficios corporativos",
+    title: "Cómo elegir beneficios de salud para tu equipo en 2026 (y que realmente se usen)",
+    meta: "Por Smile Up · 12 de mayo, 2026 · 8 min de lectura",
+    content: `
+      <p>Según un estudio de Robert Half Chile, el <strong>77% de los trabajadores cree que los beneficios de su empresa necesitan actualizarse</strong>. Y la razón principal no es que los beneficios sean malos: es que no responden a las necesidades reales del equipo, o son tan difíciles de usar que nadie los aprovecha.</p>
+      <p>Si estás diseñando o revisando el paquete de beneficios de tu organización para 2026, esta guía te ayuda a tomar decisiones más inteligentes.</p>
+
+      <h2>El error más común: beneficios que no se usan</h2>
+      <p>Un seguro complementario de salud que requiere 12 formularios para reembolsar $15.000. Un gimnasio corporativo a 40 minutos de la oficina. Un bono de bienestar que se puede usar "en lo que quieras" pero nadie sabe cómo activar.</p>
+      <p>Estos beneficios existen en miles de empresas chilenas. Aparecen en el contrato, en el onboarding, y después... desaparecen. El equipo de RRHH los administra con esfuerzo, pero la tasa de uso es baja y el impacto en clima laboral, mínimo.</p>
+
+      <div class="blog-stat-box">
+        <strong>89%</strong>
+        De los trabajadores en Chile considera el seguro de salud como el beneficio más valorado, según Buk. Sin embargo, la cobertura dental suele ser el componente más ignorado o más difícil de usar.
+      </div>
+
+      <h2>Los 3 criterios para elegir un buen beneficio de salud</h2>
+      <h3>1. Facilidad de uso real</h3>
+      <p>El mejor beneficio es el que se usa sin fricción. Si para acceder a él el colaborador necesita hacer trámites, completar formularios o desplazarse lejos, la tasa de uso va a ser baja. Mide el éxito de un beneficio por cuántas personas lo usan, no solo por si existe.</p>
+
+      <h3>2. Impacto visible y tangible</h3>
+      <p>Los beneficios que generan mayor satisfacción son aquellos donde el colaborador puede decir "la empresa hizo esto por mí" con algo concreto. Una limpieza dental en la oficina es tangible. Un descuento del 10% en una óptica que nadie visita, no lo es.</p>
+
+      <h3>3. Costo-efectividad para la empresa</h3>
+      <p>No siempre el beneficio más caro es el más valorado. La atención dental in-company, por ejemplo, tiene costo cero para el empleador y un impacto directo en la productividad al reducir ausencias por urgencias dentales.</p>
+
+      <h2>¿Por qué la salud dental es el gran olvidado?</h2>
+      <p>La mayoría de los planes de salud complementarios en Chile cubren hospitalización, consultas médicas y medicamentos. Muy pocos incluyen cobertura dental real. Y cuando la incluyen, los topes son tan bajos que apenas cubren una limpieza.</p>
+      <p>El resultado: los colaboradores postergan sus controles dentales porque son caros, porque requieren tiempo, o simplemente porque no está integrado en su rutina laboral. Hasta que llega la urgencia.</p>
+
+      <h2>El beneficio que se menciona en las entrevistas</h2>
+      <p>Empresas como Tottus, DHL, Carozzi y Tresmontes Lucchetti ya tienen atención dental in-company con Smile Up. Lo que reportan sus equipos de RRHH es consistente: es uno de los beneficios más comentados por los colaboradores, tanto en las encuestas de clima como en los procesos de selección.</p>
+      <p>Un beneficio que el equipo usa, que resuelve un problema real, y que no le cuesta nada a la empresa: eso es lo que Smile Up ofrece.</p>
+      <a href="https://calendar.app.google/Jmzwz1UeD4T2fn2JA" target="_blank" class="blog-modal-cta">Conoce cómo funciona →</a>
+    `
+  },
+  3: {
+    tag: "Salud dental empresas",
+    title: "Salud dental preventiva en la empresa: la guía completa para RRHH",
+    meta: "Por Smile Up · 15 de mayo, 2026 · 10 min de lectura",
+    content: `
+      <p>Implementar un programa de salud dental en tu empresa no es tan complejo como parece. De hecho, con el proveedor adecuado, el equipo de RRHH no necesita hacer casi nada. Pero antes de llegar a eso, vale la pena entender qué significa la salud dental preventiva y por qué es relevante para el mundo corporativo.</p>
+
+      <h2>¿Qué es la odontología preventiva y por qué importa en la empresa?</h2>
+      <p>La odontología preventiva se enfoca en evitar que las enfermedades bucales se desarrollen o avancen. Esto incluye limpiezas regulares, aplicación de flúor, diagnóstico temprano y sellantes para proteger los dientes de caries.</p>
+      <p>A diferencia de la odontología reparativa (tapaduras, coronas, endodoncias), la preventiva es de bajo costo, rápida y no requiere anestesia ni recuperación. Una sesión completa de diagnóstico, limpieza y flúor toma entre 30 y 45 minutos.</p>
+
+      <div class="blog-stat-box">
+        <strong>62%</strong>
+        De los chilenos califica su salud bucal como regular, mala o muy mala (Estudio Odontología UAndes, 2023). La mayoría no se atiende por falta de tiempo, no de voluntad.
+      </div>
+
+      <h2>Los 4 servicios preventivos esenciales para un programa corporativo</h2>
+
+      <h3>1. Diagnóstico y presupuesto</h3>
+      <p>El punto de partida. Un dentista certificado evalúa el estado bucal de cada colaborador, identifica problemas existentes y entrega un presupuesto para los tratamientos que necesita. Muchos colaboradores no saben que tienen caries o gingivitis incipiente hasta que se las diagnostican.</p>
+
+      <h3>2. Destartraje y profilaxis (limpieza)</h3>
+      <p>Eliminación del sarro y placa bacteriana acumulada. Es el procedimiento preventivo más importante y debería realizarse al menos una vez al año. Previene la gingivitis, la periodontitis y reduce el riesgo de caries.</p>
+
+      <h3>3. Aplicación de flúor</h3>
+      <p>El flúor fortalece el esmalte dental y hace que los dientes sean más resistentes al ataque de las bacterias. Es especialmente útil para personas con dieta alta en azúcar o con historial de caries frecuentes.</p>
+
+      <h3>4. Tapaduras y sellantes</h3>
+      <p>Los sellantes son una capa protectora que se aplica en las fosas y fisuras de los molares para evitar que se acumule placa bacteriana en zonas de difícil acceso. Las tapaduras (obturaciones) detienen caries en etapas tempranas antes de que requieran tratamientos más complejos y costosos.</p>
+
+      <h2>Cómo implementarlo sin que RRHH tenga que hacer todo</h2>
+      <p>El error más común al implementar beneficios de salud es sobrecargar al equipo de RRHH con la coordinación. Un buen proveedor debería encargarse de:</p>
+      <ul>
+        <li>Coordinar fechas y horarios con el equipo</li>
+        <li>Gestionar la agenda de atenciones colaborador a colaborador</li>
+        <li>Instalar el equipamiento sin interrumpir la operación</li>
+        <li>Entregar un reporte de uso y satisfacción posterior</li>
+      </ul>
+      <p>Con Smile Up, el proceso para RRHH es simple: aprueban el beneficio, nos dan acceso al estacionamiento o patio, y nosotros nos encargamos del resto. La agenda se arma con los propios colaboradores a través de nuestro sistema de agendamiento online.</p>
+
+      <h2>Cómo comunicarlo internamente para que todos se atiendan</h2>
+      <p>Un beneficio mal comunicado es un beneficio que no existe. Te compartimos las 3 acciones que mejor funcionan para activar la participación:</p>
+      <ol>
+        <li><strong>Anuncio por canal oficial interno</strong> (Teams, Slack, email) con fecha, hora y cómo agendar. Máximo 5 líneas.</li>
+        <li><strong>Recordatorio de jefaturas directas</strong> 48 horas antes. El mensaje de un jefe directo tiene 3 veces más impacto que una comunicación institucional.</li>
+        <li><strong>Post en grupos internos o cartelera</strong> con la foto de la clínica móvil. Ver el vehículo genera curiosidad y activa conversaciones entre pares.</li>
+      </ol>
+
+      <h2>Cómo medir el éxito del programa</h2>
+      <p>Los KPIs que recomendamos seguir tras implementar Smile Up:</p>
+      <ul>
+        <li>Tasa de uso: porcentaje de colaboradores que se atendieron vs. los convocados</li>
+        <li>NPS del beneficio: encuesta rápida post-atención (¿lo recomendarías a un colega?)</li>
+        <li>Variación en licencias médicas por razones odontológicas (trimestral)</li>
+        <li>Mención espontánea en encuestas de clima laboral</li>
+      </ul>
+      <p>Empresas con programas anuales consistentes reportan tasas de uso superiores al 70% a partir del segundo año.</p>
+      <a href="https://calendar.app.google/Jmzwz1UeD4T2fn2JA" target="_blank" class="blog-modal-cta">Implementa Smile Up en tu empresa →</a>
+    `
+  }
+};
+
+function openBlog(id) {
+  const article = blogArticles[id];
+  const content = document.getElementById('blog-modal-content');
+  content.innerHTML = `
+    <span class="blog-tag">${article.tag}</span>
+    <h1>${article.title}</h1>
+    <div class="blog-modal-meta">${article.meta}</div>
+    <div class="blog-modal-content">${article.content}</div>
+  `;
+  document.getElementById('blog-modal-overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeBlog() {
+  document.getElementById('blog-modal-overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function closeBlogIfOutside(e) {
+  if (e.target === document.getElementById('blog-modal-overlay')) closeBlog();
+}
 </script>
 </body>
 </html>
