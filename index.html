@@ -230,6 +230,7 @@ a{text-decoration:none}
 .servicio-icon{flex-shrink:0;width:58px;height:58px;border-radius:16px;background:var(--coral-soft);display:flex;align-items:center;justify-content:center;font-size:26px}
 .servicio:nth-child(2) .servicio-icon{background:#FFF2E0}
 .servicio:nth-child(3) .servicio-icon{background:#E8F5EE}
+.servicio:nth-child(5){grid-column:1/-1;max-width:calc(50% - 11px);margin:0 auto}
 .servicio:nth-child(4) .servicio-icon{background:#EDE8FF}
 .servicio h4{font-family:'Fraunces',serif;font-size:20px;font-weight:500;margin-bottom:7px}
 .servicio p{color:var(--ink-soft);font-size:14px;line-height:1.55}
@@ -328,6 +329,7 @@ footer{padding:52px 48px 24px;background:var(--ink);color:rgba(255,255,255,.65)}
   .como{padding:72px 20px}
   .servicios{max-width:100%;padding-left:20px;padding-right:20px}
   .servicios-grid{grid-template-columns:1fr}
+  .servicio:nth-child(5){max-width:100%}
   .galeria-grid{grid-template-columns:repeat(2,1fr);grid-template-rows:auto}
   .gal-1,.gal-2,.gal-3,.gal-4,.gal-5,.gal-6{grid-column:auto;height:190px}
   .cta-card{padding:44px 24px}
@@ -585,8 +587,15 @@ footer{padding:52px 48px 24px;background:var(--ink);color:rgba(255,255,255,.65)}
     <div class="servicio reveal">
       <div class="servicio-icon">🩹</div>
       <div>
-        <h4>Tapaduras y sellantes</h4>
+        <h4>Restauraciones y sellantes</h4>
         <p>Obturaciones de composite y sellantes de fosas y fisuras para detener caries en etapas tempranas, evitando tratamientos más complejos.</p>
+      </div>
+    </div>
+    <div class="servicio reveal">
+      <div class="servicio-icon">✨</div>
+      <div>
+        <h4>Blanqueamientos</h4>
+        <p>Blanqueamiento dental profesional con gel de peróxido activado por luz LED. Aclaramos el tono de tus dientes en una sola sesión, de forma segura y supervisada por dentista.</p>
       </div>
     </div>
   </div>
@@ -728,8 +737,7 @@ footer{padding:52px 48px 24px;background:var(--ink);color:rgba(255,255,255,.65)}
         </div>
       </a>
 
-      <!-- Artículo 2 -->'
-
+      <!-- Artículo 2 -->
       <a class="blog-card reveal" href="/blog/beneficios-salud-corporativos-2026.html">
         <div class="blog-card-img blog-card-img-2">🏆</div>
         <div class="blog-card-body">
@@ -781,7 +789,8 @@ footer{padding:52px 48px 24px;background:var(--ink);color:rgba(255,255,255,.65)}
       <a href="#">Destartraje y profilaxis</a>
       <a href="#">Aplicación de flúor</a>
       <a href="#">Diagnóstico completo</a>
-      <a href="#">Tapaduras y sellantes</a>
+      <a href="#">Restauraciones y sellantes</a>
+      <a href="#">Blanqueamientos</a>
     </div>
     <div class="footer-col">
       <h5>Empresa</h5>
@@ -921,8 +930,8 @@ const blogArticles = {
       <h3>3. Aplicación de flúor</h3>
       <p>El flúor fortalece el esmalte dental y hace que los dientes sean más resistentes al ataque de las bacterias. Es especialmente útil para personas con dieta alta en azúcar o con historial de caries frecuentes.</p>
 
-      <h3>4. Tapaduras y sellantes</h3>
-      <p>Los sellantes son una capa protectora que se aplica en las fosas y fisuras de los molares para evitar que se acumule placa bacteriana en zonas de difícil acceso. Las tapaduras (obturaciones) detienen caries en etapas tempranas antes de que requieran tratamientos más complejos y costosos.</p>
+      <h3>4. Restauraciones y sellantes</h3>
+      <p>Los sellantes son una capa protectora que se aplica en las fosas y fisuras de los molares para evitar que se acumule placa bacteriana en zonas de difícil acceso. Las restauraciones (obturaciones) detienen caries en etapas tempranas antes de que requieran tratamientos más complejos y costosos.</p>
 
       <h2>Cómo implementarlo sin que RRHH tenga que hacer todo</h2>
       <p>El error más común al implementar beneficios de salud es sobrecargar al equipo de RRHH con la coordinación. Un buen proveedor debería encargarse de:</p>
